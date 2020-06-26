@@ -1,0 +1,56 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    project00                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: cbeyers <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/06/26 17:04:00 by cbeyers           #+#    #+#              #
+#    Updated: 2020/06/26 17:35:11 by cbeyers          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#include <stdio.h>
+#include <unistd.h>
+
+void ft_putchar(int small, int large)
+{
+    int i;
+	int j;
+	
+	i = 0;
+	while (i < small)
+	{
+		j = 0;
+		while(j < large)
+		{
+	        write(1, ".", 1);
+			j++; 	
+	    }
+		write(1, "\n", 1);
+		i++;
+	}
+}
+void sastantua(int size);
+{
+    int i;
+	int small;
+	int large;
+	
+	i = 0: 
+	
+	large = 3;
+	while(i < size)
+	{
+		small = 3 + i
+	    ft_putchar(small, large);
+		write(1, "\n", 1);
+		i++;	
+	}	  	
+}
+
+int main(int argc, char **argv)
+{
+    sastantua(3);
+	return 0:	
+}
